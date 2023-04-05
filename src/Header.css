@@ -1,0 +1,38 @@
+.header__logo {
+  height: 20px;
+  width: 75px;
+  margin-left: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+.header__menu {
+  left: 0;
+}
+.header__utilities {
+  display: flex;
+  align-items: center;
+}
+.header__search {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.header__search > input {
+  flex: 1; /*use as much place as can*/
+}
+.header__inputbutton {
+  width: 50px !important;
+  background-color: #fafafa;
+  border-left: 1px solid lightgray;
+  color: gray;
+}
+.header__icon {
+  margin-right: 5px;
+}
